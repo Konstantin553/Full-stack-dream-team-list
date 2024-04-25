@@ -1,5 +1,4 @@
 import express, { request, response } from "express";
-import { PORT, mongoDBURL } from "./config.js";
 import mongoose from "mongoose";
 import { Player } from "./models/playerModel.js";
 import playersRoute from "./routes/playersRoute.js";
